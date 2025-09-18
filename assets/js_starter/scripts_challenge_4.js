@@ -3,7 +3,8 @@
 let numbers = [1, 2, 3, 4, 5, 6];
 
 // Find the index of the number 5 in the array
-
+let resultIndex = numbers.findIndex((x) => x === 5);
+console.log(resultIndex); // 4
 
 // If the number 5 is found in the array
 
