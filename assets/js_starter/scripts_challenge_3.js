@@ -7,13 +7,16 @@ let checkNumber5 = numbers.includes(5); //true
 
 // If true, filter out numbers less than 5
 if(checkNumber5) {
-    let resultArray = numbers.filter((x) => x >= 5);
-    console.log(resultArray); // 5,6
+    filterArray = numbers.filter((x) => x >= 5);
+    console.log(filterArray) // 5,6
 }
 
-// Then square each number in the resulting array
+// // Then square each number in the resulting array
+let squaredArray = filterArray.map((x) => x*x);
+console.log(squaredArray); // 25,36
 
 // Output the final array
+document.getElementById('OutputField').innerHTML = squaredArray;
 
 // Output a message if the number 5 is not in the array
 // console.log("The number 5 is not in the array.");
