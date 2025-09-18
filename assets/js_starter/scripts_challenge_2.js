@@ -10,5 +10,7 @@ let array3 = [...array1, ...array2];
 let removeDuplicates = [...new Set(array3)];
 
 // Use array destructuring to assign the first three elements to variables
+let [firstNum, secondNum, thirdNum] = removeDuplicates;
 
 // Set the value of the output filed to be the second element of the unique array
+document.getElementById('OutputField').innerHTML = secondNum;
