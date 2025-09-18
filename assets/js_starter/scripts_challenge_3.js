@@ -6,6 +6,7 @@ let numbers = [1, 2, 3, 4, 5, 6];
 let checkNumber5 = numbers.includes(5); //true
 
 // If true, filter out numbers less than 5
+let filterArray = [];
 if(checkNumber5) {
     filterArray = numbers.filter((x) => x >= 5);
     console.log(filterArray) // 5,6
