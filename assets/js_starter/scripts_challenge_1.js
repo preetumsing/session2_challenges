@@ -9,5 +9,7 @@ let newNumbers = numbers.pop();
 numbers.unshift(newNumbers);
 
 // Use the slice() method to exclude the first 3 elements and return a new array
+let newArray = numbers.slice(3);
 
 // Set the value of the outputfield inner html to the new array
+document.getElementById('OutputField').innerHTML = newArray;
