@@ -6,6 +6,7 @@ let numbers = [1, 2, 3, 4, 5];
 let newNumbers = numbers.pop();
 
 // Use the unshift() method to add the last element to the beginning of the array
+numbers.unshift(newNumbers);
 
 // Use the slice() method to exclude the first 3 elements and return a new array
 
