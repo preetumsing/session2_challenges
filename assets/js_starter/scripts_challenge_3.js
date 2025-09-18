@@ -19,4 +19,6 @@ console.log(squaredArray); // 25,36
 document.getElementById('OutputField').innerHTML = squaredArray;
 
 // Output a message if the number 5 is not in the array
-// console.log("The number 5 is not in the array.");
+if(!squaredArray.includes(5)) {
+    console.log("The number 5 is not in the array.");
+}
