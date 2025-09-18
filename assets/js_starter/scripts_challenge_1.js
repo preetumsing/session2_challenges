@@ -3,7 +3,7 @@
 let numbers = [1, 2, 3, 4, 5];
 
 // Use the pop() method to remove the last element from the array
-numbers.pop();
+let newNumbers = numbers.pop();
 
 // Use the unshift() method to add the last element to the beginning of the array
 
